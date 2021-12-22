@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ReadFile in = new ReadFile();
-       byte[] pic =  in.FindAndRead("text.txt");
+       byte[] pic =  in.FindAndRead("picture.png");
        WriteFile out = new WriteFile();
-       out.WriteToFile("picture.txt",pic);
+       out.WriteToFile("pictureout.png",pic);
 
 
 
